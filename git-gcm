@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# git gcm - checks out clean version of the 'main' branch.
+
+git branch -D main && git checkout main && git pull && git pull
